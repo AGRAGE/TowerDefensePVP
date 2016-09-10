@@ -1,0 +1,28 @@
+.firstColumn{
+	font-size: 40px;
+	border: 1px solid black;
+	height: 100%;
+}
+.secondColumn{
+	font-size: 40px;
+	border: 1px solid black;
+	height: 100%;
+}
+.thirdColumn{
+	font-size: 40px;
+	border: 1px solid black;
+	height: 100%;
+}
+.mainBody{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
+.mainRaw{
+	height: 100%;
+}
+.mainFooter{
+	width: 100%;
+	border: 1px solid black;
+	font-size: 40px;
+}
