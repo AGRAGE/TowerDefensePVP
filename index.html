@@ -2,17 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap 101 Template</title>
+    <title>AGRage</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include css -->
     <link href="css/all.css" rel="stylesheet">
+    <!-- Include Jquery -->
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="js/popUp.js"></script>
 
   </head>
   <body class="mainBody">
         <div class="row mainRaw">
             <div class="col-md-3 firstColumn text-center">Колонка 1</div>
-            <div class="col-md-6 secondColumn text-center">Колонка 2</div>
+            <div class="col-md-6 secondColumn text-center">Колонка 2
+                <div class="b-container">
+                Sample Text
+                <a href="javascript:PopUpShow()">Show popup</a>
+                </div>
+                <div class="b-popup" id="popup1">
+                  <div class="b-popup-content">
+                  <p>Text in Popup</p>
+                  <a href="javascript:PopUpHide()">Hide popup</a>
+                  </div>
+                </div>
+            </div>
             <div class="col-md-3 thirdColumn text-center">Колонка 3</div>
         </div>
         <div class="row footer">
